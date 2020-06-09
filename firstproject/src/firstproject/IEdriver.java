@@ -17,6 +17,8 @@ public class IEdriver {
 		System.out.println("test");
 		System.out.println("test1");
 		System.out.println("test2");
+		System.out.println("test3");
+		System.out.println("test4");
 		driver.findElement(By.xpath(("//input[@name='firstname']"))).sendKeys("ABC");
 	}
 
